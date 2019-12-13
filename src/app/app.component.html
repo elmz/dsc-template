@@ -1,0 +1,22 @@
+<clr-main-container >       
+  <dsc-header [init]="headerOptions" [menu]="menuList"></dsc-header>
+    <!-- <dsc-collapsible-list [menuList]= "menuList" [windowPosition]="'left'"></dsc-collapsible-list> -->
+  <div class="content-container dark">
+    <main class="content-area">
+      <dsc-alert ></dsc-alert>
+      <div class="clr-row"></div>
+      <br/>
+      <dsc-calendar (dates)="onUpdatedDate($event)"></dsc-calendar>
+      <div class="clr-row">
+        <dsc-panel class="clr-col-lg-4 clr-col-sm-6 clr-col-12" [init]="panelChartOptions" [date]="dateInput"></dsc-panel>
+        <dsc-panel class="clr-col-lg-4 clr-col-sm-6 clr-col-12" [init]="panelChartOptions2" [date]="dateInput"></dsc-panel>
+      </div>
+      <div class="clr-row"></div>
+      <br/>
+      <button class="btn btn-success" (click)="createSuccessMessage()">Success Alert Btn</button>
+      <button class="btn btn-danger" (click)="createDangerMessage()">Danger Alert Btn</button>
+      <!-- <button class="btn btn-warning" (click)="createWarningMessage()">Warning Button</button> -->
+      <button class="btn btn-info" (click)="createInfoMessage()">Info Alert Btn</button>
+    </main>
+  </div>
+</clr-main-container> 
