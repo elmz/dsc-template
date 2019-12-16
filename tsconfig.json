@@ -17,59 +17,7 @@
     "lib": [
       "es2018",
       "dom"
-    ],
-    "paths": {
-      "ng-simple-alert": [
-        "dist/ng-simple-alert"
-      ],
-      "ng-simple-alert/*": [
-        "dist/ng-simple-alert/*"
-      ],
-      "dsc-alert": [
-        "dist/dsc-alert"
-      ],
-      "dsc-alert/*": [
-        "dist/dsc-alert/*"
-      ],
-      "dsc-header": [
-        "dist/dsc-header"
-      ],
-      "dsc-header/*": [
-        "dist/dsc-header/*"
-      ],
-      "dsc-panel": [
-        "dist/dsc-panel"
-      ],
-      "dsc-panel/*": [
-        "dist/dsc-panel/*"
-      ],
-      "dsc-collapsible-list": [
-        "dist/dsc-collapsible-list"
-      ],
-      "dsc-collapsible-list/*": [
-        "dist/dsc-collapsible-list/*"
-      ],
-      "dsc-calendar": [
-        "dist/dsc-calendar",
-        "dist/dsc-calendar"
-      ],
-      "dsc-calendar/*": [
-        "dist/dsc-calendar/*",
-        "dist/dsc-calendar/*"
-      ],
-      "dsc-library": [
-        "dist/dsc-library"
-      ],
-      "dsc-library/*": [
-        "dist/dsc-library/*"
-      ],
-      "dsc-footer": [
-        "dist/dsc-footer"
-      ],
-      "dsc-footer/*": [
-        "dist/dsc-footer/*"
-      ]
-    }
+    ]
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

@@ -3,7 +3,7 @@ import { DscAlertService } from 'dsc-alert';
 import { menuContent } from './menu'
 // import {DscAlertService} from '../../../dsc-alert/src/lib/dsc-alert.service';
 import { single } from './data';
-import { DscMainModel } from 'projects/dsc-collapsible-list/src/lib/dsc-collapsible-list.model';
+import { DscMainModel } from 'dsc-collapsible-list/lib/dsc-collapsible-list.model';
 import { pieSingle } from './piechart-data';
 
 @Component({

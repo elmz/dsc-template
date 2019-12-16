@@ -4,11 +4,11 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { DscAlertModule } from 'dsc-alert';
 // import { DscAlertModule } from '../../../dsc-alert/src/lib/dsc-alert.module';
-import { DscHeaderModule } from '../../../dsc-header/src/lib/dsc-header.module';
-import { DscPanelModule } from '../../../dsc-panel/src/lib/dsc-panel.module';
-import { DscCalendarModule } from '../../../dsc-calendar/src/lib/dsc-calendar.module';
+import { DscHeaderModule } from 'dsc-header';
+import { DscPanelModule } from 'dsc-panel';
+import { DscCalendarModule } from 'dsc-calendar';
 
-import { DscCollapsibleListModule } from '../../../dsc-collapsible-list/src/lib/dsc-collapsible-list.module';
+import { DscCollapsibleListModule } from 'dsc-collapsible-list';
 
 // import { DscHeaderModule } from 'dsc-header';
 import { NgModule } from '@angular/core';

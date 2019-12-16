@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('Welcome to ng-alert-showcase!');
+    expect(page.getTitleText()).toEqual('Welcome to dsc-liberty-dell!');
   });
 
   afterEach(async () => {
